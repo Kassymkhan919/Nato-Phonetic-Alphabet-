@@ -1,0 +1,103 @@
+<!--
+  This is a take-home assignment for GameJobs.Ninja's frontend developer internship position. It
+  attempts to test your fundamental HTML, CSS, and JavaScript knowledge. See the comments below
+  for the specific tasks. Then see the comment at the end for how to submit your finished work to
+  us for review. Thanks ahead of time for doing this!
+-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FE Dev Intern Test</title>
+    <!--
+      Add CSS to make this page look professional.
+
+      You may NOT use any third-party CSS framework!
+    -->
+      <link rel="stylesheet" href="style.css" />
+      <link rel="preconnect" href="https://fonts.gstatic.com"> 
+      <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+      
+  </head>
+  <body>
+    <!--
+      Add a header with "NATO Phonetic Alphabet" on the left that links to its Wikipedia article.
+      And on the right, add links to Wikipedia, the Wikimedia Foundation, and the Wikimedia
+      Foundation's Twitter account.
+    -->
+      <div class=header>
+        <a href="https://en.wikipedia.org/wiki/NATO_phonetic_alphabet" class="logo" target="_blank" title="Nato Phonetic Alphabet">Nato Phonetic Alphabet</a>
+          <div class="header-right"> 
+          <a href=https://wikimediafoundation.org target="_blank">Wikimedia</a>
+            <a href="https://twitter.com/wikimedia" target="_blank">Wikimedia Twitter</a>
+          </div>
+      </div>
+    <section>
+      <!--
+        Add CSS to create a responsive layout of these div elements that will display one column
+        on mobile devices, two columns on tablet devices, and three columns on desktops.
+
+        Reminder, you may NOT use any third-party CSS framework!
+      -->
+    <h2>Phonetic Alphabet</h2>
+        <div id="container">   
+        <div class="shuffleSort">golf</div>
+      <div class="shuffleSort">alpha</div>
+      <div class="shuffleSort">bravo</div>
+      <div class="shuffleSort">oscar</div>
+      <div class="shuffleSort">victor</div>
+      <div class="shuffleSort">echo</div>
+      <div class="shuffleSort">foxtrot</div>
+      <div class="shuffleSort">romeo</div>
+      <div class="shuffleSort">tango</div>
+      <div class="shuffleSort">charlie</div>
+      <div class="shuffleSort">mike</div>
+      <div class="shuffleSort">yankee</div>
+      <div class="shuffleSort">hotel</div>
+      <div class="shuffleSort">papa</div>
+      <div class="shuffleSort">zulu</div>
+      <div class="shuffleSort">india</div>
+      <div class="shuffleSort">juliett</div>
+      <div class="shuffleSort">kilo</div>
+      <div class="shuffleSort">delta</div>
+      <div class="shuffleSort">lima</div>
+      <div class="shuffleSort">november</div>
+      <div class="shuffleSort">quebec</div>
+      <div class="shuffleSort">sierra</div>
+      <div class="shuffleSort">uniform</div>
+      <div class="shuffleSort">x-ray</div>
+      <div class="shuffleSort">whiskey</div>
+    </div>
+      
+      <!--
+        Add JS to make the Sort and Shuffle buttons functional, where clicking Sort will sort the
+        divs by content alphabetically, and clicking Shuffle will apply a random sort to the divs.
+
+        You may NOT use any third-party JS framework!
+
+        Stretch goal: add CSS animations when moving the letters around.
+      -->
+
+      
+      
+    </section>
+      <button class="button" onclick="sortMe()">Sort</button>
+        <button class="button" onclick="shuffle()">Shuffle</button>
+    <!--
+      Add a footer with your name that links to your email address.
+    -->
+      
+      <footer class="site-footer">
+        <a href="mailto:kbekbola@sfu.ca">Kassymkhan Bekbolatov</a>
+      </footer>
+      
+
+      <script src="sort.js"></script>
+  </body>
+</html>
+<!--
+  When you're done, commit your work to a publically accessible Git repo on GitHub, GitLab, or
+  BitBucket (preferrably GitHub). Then fill out this Google Form to submit the repo link to us for
+  review: https://forms.gle/MppfwvJpJ5nHApJy5
+-->
